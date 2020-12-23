@@ -1,0 +1,226 @@
+.pokemon-info{
+    text-align: center;
+    /* margin: 5px 0; */
+    padding: 10px 0;
+}
+.pokemon-info img{
+    width:  250px;
+    height: 250px;
+    /* background-color: #333; */
+    border-radius: 15px
+}
+.pokemon-info span{
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #777;
+}
+.pokemon-info .types{
+    display: flex;
+    justify-content: center;
+}
+.pokemon-info .types p{
+    width: 100px;
+    margin: 0 5px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.pokemon-info .types p.grass{
+    background-image: linear-gradient(rgb(114, 144, 42) 50%, rgb(114, 144, 42) 50%);
+    background-color: rgb(114, 144, 42);
+}
+.pokemon-info .types p.poison{
+    background-image: linear-gradient(rgb(99, 48, 113) 50%, rgb(99, 48, 113) 50%);
+    background-color: rgb(99, 48, 113);
+}
+.pokemon-info .types p.fire{
+    background-color: rgb(182, 76, 2);
+}
+.pokemon-info .types p.flying{
+    background-image: linear-gradient(rgb(13, 130, 164) 50%, rgb(63, 68, 71) 50%);
+    background-color: rgb(13, 130, 164);
+}
+.pokemon-info .types p.water{
+    background-color: rgb(48, 110, 150);
+}
+.pokemon-info .types p.bug{
+    background-color: rgb(91, 127, 50);
+}
+.pokemon-info .types p.normal{
+    background-color: rgb(72, 78, 81);
+}
+.pokemon-info .types p.electric{
+    background-image: linear-gradient(rgb(168, 147, 14) 50%, rgb(168, 147, 14) 50%);
+    background-color: rgb(168, 147, 14);
+}
+.pokemon-info .types p.ground{
+    background-image: linear-gradient(rgb(164, 143, 7) 50%, rgb(137, 122, 53) 50%);
+    background-color: rgb(164, 143, 7);
+}
+.pokemon-info .types p.fairy{
+    background-color: rgb(92, 3, 65);
+}
+.pokemon-info .types p.fighting{
+    background-color: rgb(119, 50, 7);
+}
+.pokemon-info .types p.psychic{
+    background-image: linear-gradient(rgb(139, 11, 86) 50%, rgb(139, 11, 86) 50%);
+    background-color: rgb(139, 11, 86);
+}
+.pokemon-info .types p.rock{
+    background-image: linear-gradient(rgb(130, 112, 26) 50%, rgb(130, 112, 26) 50%);
+    background-color: rgb(130, 112, 26);
+}
+.pokemon-info .types p.steel{
+    background-color: rgb(64, 87, 88);
+}
+.pokemon-info .types p.ice{
+    background-color: rgb(21, 119, 149);
+}
+.pokemon-info .types p.ghost{
+    background-color: rgb(94, 74, 126);
+}
+.pokemon-info .types p.dragon{
+    background-image: linear-gradient(rgb(40, 107, 143) 50%, rgb(148, 33, 12) 50%);
+    background-color: rgb(40, 107, 143);
+}
+.pokemon-info .types p.dark{
+    background-image: linear-gradient(rgb(84, 91, 95) 50%, rgb(84, 91, 95) 50%);
+    background-color: rgb(84, 91, 95);
+}
+/* 
+.pokemon-info {
+    background-color: #666;
+} */
+
+.pokemon-info.grass img{
+    background-image: linear-gradient(rgba(114, 144, 42) 50%, rgba(114, 144, 42) 50%);
+    background-color: rgba(114, 144, 42, 0.1);
+}
+.pokemon-info.poison img{
+    background-image: linear-gradient(rgb(99, 48, 113) 50%, rgb(99, 48, 113) 50%);
+    background-color: rgba(99, 48, 113);
+}
+.pokemon-info.fire img{
+    background-color: rgba(182, 76, 2);
+}
+.pokemon-info.flying img{
+    background-image: linear-gradient(rgb(13, 130, 164) 50%, rgb(63, 68, 71) 50%);
+    background-color: rgba(13, 130, 164);
+}
+.pokemon-info.water img{
+    background-color: rgba(48, 110, 150);
+}
+.pokemon-info.bug img{
+    background-color: rgba(91, 127, 50);
+}
+.pokemon-info.normal img{
+    background-color: rgba(72, 78, 81);
+}
+.pokemon-info.electric img{
+    background-image: linear-gradient(rgb(168, 147, 14) 50%, rgb(168, 147, 14) 50%);
+    background-color: rgba(168, 147, 14);
+}
+.pokemon-info.ground img{
+    background-image: linear-gradient(rgb(164, 143, 7) 50%, rgb(137, 122, 53) 50%);
+    background-color: rgba(164, 143, 7);
+}
+.pokemon-info.fairy img{
+    background-color: rgba(92, 3, 65);
+}
+.pokemon-info.fighting img{
+    background-color: rgb(119, 50, 7);
+}
+.pokemon-info.psychic img{
+    background-image: linear-gradient(rgb(139, 11, 86) 50%, rgb(139, 11, 86) 50%);
+    background-color: rgba(139, 11, 86);
+}
+.pokemon-info.rock img{
+    background-image: linear-gradient(rgb(130, 112, 26) 50%, rgb(130, 112, 26) 50%);
+    background-color: rgba(130, 112, 26);
+}
+.pokemon-info.steel img{
+    background-color: rgba(64, 87, 88);
+}
+.pokemon-info.ice img{
+    background-color: rgba(21, 119, 149);
+}
+.pokemon-info.ghost img{
+    background-color: rgba(94, 74, 126);
+}
+.pokemon-info.dragon img{
+    background-image: linear-gradient(rgb(40, 107, 143) 50%, rgb(148, 33, 12) 50%);
+    background-color: rgba(40, 107, 143);
+}
+.pokemon-info.dark img{
+    background-image: linear-gradient(rgb(84, 91, 95) 50%, rgb(84, 91, 95) 50%);
+    background-color: rgba(84, 91, 95);
+}
+
+
+
+
+/* 
+.pokemon-info.grass{
+    background-image: linear-gradient(rgba(114, 144, 42, 0.5) 50%, rgba(114, 144, 42, 0.5) 50%);
+    background-color: rgba(114, 144, 42, 0.5);
+}
+.pokemon-info.poison{
+    background-image: linear-gradient(rgb(99, 48, 113, 0.5) 50%, rgb(99, 48, 113, 0.5) 50%);
+    background-color: rgba(99, 48, 113, 0.5);
+}
+.pokemon-info.fire{
+    background-color: rgba(182, 76, 2, 0.5);
+}
+.pokemon-info.flying{
+    background-image: linear-gradient(rgb(13, 130, 164, 0.5) 50%, rgb(63, 68, 71, 0.5) 50%);
+    background-color: rgba(13, 130, 164, 0.5);
+}
+.pokemon-info.water{
+    background-color: rgba(48, 110, 150, 0.5);
+}
+.pokemon-info.bug{
+    background-color: rgba(91, 127, 50, 0.5);
+}
+.pokemon-info.normal{
+    background-color: rgba(72, 78, 81, 0.5);
+}
+.pokemon-info.electric{
+    background-image: linear-gradient(rgb(168, 147, 14, 0.5) 50%, rgb(168, 147, 14, 0.5) 50%);
+    background-color: rgba(168, 147, 14, 0.5);
+}
+.pokemon-info.ground{
+    background-image: linear-gradient(rgb(164, 143, 7, 0.5) 50%, rgb(137, 122, 53, 0.5) 50%);
+    background-color: rgba(164, 143, 7, 0.5);
+}
+.pokemon-info.fairy{
+    background-color: rgba(92, 3, 65, 0.5);
+}
+.pokemon-info.fighting{
+    background-color: rgb(119, 50, 7, 0.5);
+}
+.pokemon-info.psychic{
+    background-image: linear-gradient(rgb(139, 11, 86, 0.5) 50%, rgb(139, 11, 86, 0.5) 50%);
+    background-color: rgba(139, 11, 86, 0.5);
+}
+.pokemon-info.rock{
+    background-image: linear-gradient(rgb(130, 112, 26, 0.5) 50%, rgb(130, 112, 26, 0.5) 50%);
+    background-color: rgba(130, 112, 26, 0.5);
+}
+.pokemon-info.steel{
+    background-color: rgba(64, 87, 88, 0.5);
+}
+.pokemon-info.ice{
+    background-color: rgba(21, 119, 149, 0.5);
+}
+.pokemon-info.ghost{
+    background-color: rgba(94, 74, 126, 0.5);
+}
+.pokemon-info.dragon{
+    background-image: linear-gradient(rgb(40, 107, 143, 0.5) 50%, rgb(148, 33, 12, 0.5) 50%);
+    background-color: rgba(40, 107, 143, 0.5);
+}
+.pokemon-info.dark{
+    background-image: linear-gradient(rgb(84, 91, 95, 0.5) 50%, rgb(84, 91, 95, 0.5) 50%);
+    background-color: rgba(84, 91, 95, 0.5);
+} */

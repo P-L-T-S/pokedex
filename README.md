@@ -10,9 +10,9 @@
 # :page_with_curl: Índice:
 
 
-- [Sobre](#-Sobre)
-- [Tecnologias](#-Tecnologias)
-- [Conceitos](#-Conceitos)
+- [Sobre](#Sobre)
+- [Tecnologias](#Tecnologias)
+- [Conceitos](#Conceitos)
 
 
 <br/>
@@ -67,19 +67,34 @@ Ainda existem Features à serem implantadas. Pretendo fazer isso com o tempo.
 
 ```
 
-----------------------------------------------------------------
+<br/>
+
+---
+
+<br/>
+<br/>
 
 # :telephone: Contatos:
 
+<br/>
+
 <div align="center">
     <a href="mailto:pedrolts16@gmail.com">
-        <img alt="E-mail" width="50" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg">
+        <img alt="E-mail" width="30" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg">
     </a>
-    <a href="https://linkedin.com/P-L-T-S">
-        <img alt="linkedin" width="40" src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Linkedin_Shiny_Icon.svg">
+    <a href="https://www.linkedin.com/in/pedro-teixeira-dev/">
+        <img alt="linkedin" width="25" src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Linkedin_Shiny_Icon.svg">
     </a>
     <a href="https://www.instagram.com/pedrolts16/">
-        <img alt="Instagram" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_new.svg">
+        <img alt="Instagram" width="25px" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_new.svg">
     </a>
-    
+
+<br/>
+
+<br/>
+
+
+## Feito com :heart: por [Pedro Leonardo](https://www.linkedin.com/in/pedro-teixeira-dev/)
+
 </div>
+
